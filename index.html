@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schaltjahr</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1> Finde Heraus ob ein Jahr ein Schaltjahr ist! </h1>
+    <table>
+        <td><p>  Ein normales Jahr hat 365 Tage, Schaltjahre haben 366 Tage mit einem zusätzlichen Tag im Februar.<br>
+
+            So findet man heraus, ob ein bestimmtes Jahr ein Schaltjahr ist:<br>
+            <ul>
+                <li>  Ein Jahr ist ein Schaltjahr, 
+                    wenn es durch 4 gleichmäßig teilbar ist;</li>
+                    <li> Außer wenn dieses Jahr auch durch 100 gleichmäßig teilbar ist;</li>
+        <li>Es sei denn, dieses Jahr ist auch durch 400 gleichmäßig teilbar.</li>   
+         </ul>
+             
+             
+             </p></td>
+             <td> <img src="frage.png" alt=""></td>
+    
+        </table>
+
+        
+         <div style="text-align: center;">
+        <p>Gib bitte hier dein Jahr ein :</p> 
+         <input type="number" id="jahr" >
+         <br>
+         <br>
+         <button id ="check"> Schaltjahr? </button>
+        </div>
+        
+         <div id = "result">  </div>
+         <script src="schaltjahr.js"></script>
+</body>
+</html>
